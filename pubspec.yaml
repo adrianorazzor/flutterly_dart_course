@@ -1,6 +1,7 @@
 name: flutterly_dart_course
 description: A sample command-line application.
 version: 1.0.0
+publish_to: none
 # homepage: https://www.example.com
 
 environment:
@@ -8,6 +9,10 @@ environment:
 
 # dependencies:
 #   path: ^1.8.0
+
+dependencies:
+  calculator:
+    path: 'packages/calculator'
 
 dev_dependencies:
   lints: ^2.0.0

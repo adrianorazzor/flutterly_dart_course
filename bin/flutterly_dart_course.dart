@@ -1,5 +1,8 @@
-import 'package:flutterly_dart_course/flutterly_dart_course.dart' as flutterly_dart_course;
+import 'package:flutterly_dart_course/src/calculate.dart';
 
-void main(List<String> arguments) {
-  print('Hello world: ${flutterly_dart_course.calculate()}!');
+void main() {
+  print('Add: ${calculateAdd()}');
+  print('Subtract: ${calculateSubtract()}');
+  print('Multiply: ${calculateMultiply()}');
+  print('Divide: ${calculateDivide()}');
 }
